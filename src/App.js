@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import { Alert } from 'react-bootstrap';
 
 function App() {
   return (
     <div className="App">
-      Weather Information-system
+      <Alert variant={'success'}>
+        Welcome
+      </Alert>
     </div>
   );
 }
